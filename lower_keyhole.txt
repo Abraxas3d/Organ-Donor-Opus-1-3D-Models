@@ -1,0 +1,231 @@
+$fn=30;
+incline = 30;
+rotoff = 0;
+pipes = 36;
+translate([0,0,(tan(incline))*(25.4*24)])
+difference()
+{
+//base of foot rest
+#cylinder(h = 25.4*1, r1 = 25.4*28, r2 = 25.4*28);
+//take out keyhole and center
+#rotate(a=45, v=[0,0,1]){
+cube(size=[25.4*48, 25.4*48, 25.4*1]);
+}
+#cylinder(h = 25.4*1, r1 = 25.4*24, r2 = 25.4*24);
+}
+#rotate(a=(270 + 0 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 2630.678 ,  98.552 , 98.425 ]);
+}
+}
+#rotate(a=(270 - 0 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 2489.2 ,  95.631 , 94.488 ]);
+}
+}
+#rotate(a=(30 - 0 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 2355.85 ,  92.8116 , 90.7288 ]);
+}
+}
+#rotate(a=(150 + 0 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 2229.866 ,  90.1192 , 87.0966 ]);
+}
+}
+#rotate(a=(270 + 7 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 2111.248 ,  87.5538 , 83.6168 ]);
+}
+}
+#rotate(a=(270 - 7 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 1999.234 ,  85.0646 , 80.264 ]);
+}
+}
+#rotate(a=(30 - 7 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 1893.57 ,  82.677 , 77.0636 ]);
+}
+}
+#rotate(a=(150 + 7 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 1794.002 ,  80.391 , 73.9902 ]);
+}
+}
+#rotate(a=(270 + 14 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 1700.276 ,  78.1812 , 71.0184 ]);
+}
+}
+#rotate(a=(270 - 14 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 1611.63 ,  76.073 , 68.199 ]);
+}
+}
+#rotate(a=(30 - 14 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 1528.064 ,  74.0664 , 65.4558 ]);
+}
+}
+#rotate(a=(150 + 14 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 1449.324 ,  72.1106 , 62.865 ]);
+}
+}
+#rotate(a=(270 + 21 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 1374.902 ,  70.2564 , 60.3504 ]);
+}
+}
+#rotate(a=(270 - 21 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 1304.798 ,  68.453 , 57.9374 ]);
+}
+}
+#rotate(a=(30 - 21 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 1238.758 ,  66.7258 , 55.626 ]);
+}
+}
+#rotate(a=(150 + 21 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 1176.528 ,  65.0748 , 53.3908 ]);
+}
+}
+#rotate(a=(270 + 28 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 1117.854 ,  63.5 , 51.2572 ]);
+}
+}
+#rotate(a=(270 - 28 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 1062.228 ,  61.976 , 49.2252 ]);
+}
+}
+#rotate(a=(30 - 28 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 1010.158 ,  60.5028 , 47.244 ]);
+}
+}
+#rotate(a=(150 + 28 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 960.882 ,  59.1058 , 45.3644 ]);
+}
+}
+#rotate(a=(270 + 35 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 914.4 ,  57.7596 , 43.5356 ]);
+}
+}
+#rotate(a=(270 - 35 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 870.458 ,  56.4642 , 41.8084 ]);
+}
+}
+#rotate(a=(30 - 35 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 829.31 ,  55.2196 , 40.132 ]);
+}
+}
+#rotate(a=(150 + 35 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 790.194 ,  54.0512 , 38.5318 ]);
+}
+}
+#rotate(a=(270 + 42 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 753.618 ,  52.8828 , 36.9824 ]);
+}
+}
+#rotate(a=(270 - 42 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 718.82 ,  51.7906 , 35.5092 ]);
+}
+}
+#rotate(a=(30 - 42 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 686.308 ,  50.7492 , 34.0868 ]);
+}
+}
+#rotate(a=(150 + 42 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 655.574 ,  49.7332 , 32.7406 ]);
+}
+}
+#rotate(a=(270 + 49 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 626.364 ,  48.768 , 31.4198 ]);
+}
+}
+#rotate(a=(270 - 49 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 599.186 ,  47.8282 , 30.1752 ]);
+}
+}
+#rotate(a=(30 - 49 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 573.278 ,  46.9392 , 28.956 ]);
+}
+}
+#rotate(a=(150 + 49 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 548.894 ,  46.0756 , 27.813 ]);
+}
+}
+#rotate(a=(270 + 56 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 526.034 ,  45.2374 , 26.6954 ]);
+}
+}
+#rotate(a=(270 - 56 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 504.444 ,  44.45 , 25.6286 ]);
+}
+}
+#rotate(a=(30 - 56 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 484.124 ,  43.688 , 24.6126 ]);
+}
+}
+#rotate(a=(150 + 56 ), v=[0,0,1]){
+#rotate(a=-incline, v=[0,1,0]){
+translate ([ ((25.4*24)/cos(incline)) , -25.4*2, 0]) 
+cube(size=[ 464.82 ,  42.9514 , 23.622 ]);
+}
+}
